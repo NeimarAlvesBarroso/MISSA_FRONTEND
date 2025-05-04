@@ -17,6 +17,10 @@ Este é o frontend do projeto **MISSA**, uma aplicação React que interage com 
 
 ## 📁 Estrutura de Pastas
 
+
+
+## 📁 Estrutura de Pastas
+
 frontend/
 ├── public/
 ├── src/
