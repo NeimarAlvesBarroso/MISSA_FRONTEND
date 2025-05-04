@@ -1,3 +1,59 @@
+
+---
+
+## 📁 `missa-frontend/README.md`
+
+```markdown
+# MISSA Frontend
+
+Este é o frontend do projeto **MISSA**, uma aplicação React que interage com a API do backend para exibir e gerenciar dados do Museu da Imagem e do Som de Sabinópolis.
+
+## 🧰 Tecnologias
+
+- React
+- Axios
+- React Router
+- Bootstrap (ou TailwindCSS, conforme preferência futura)
+
+## 📁 Estrutura de Pastas
+
+frontend/
+├── public/
+├── src/
+│ ├── components/ # Componentes reutilizáveis
+│ ├── pages/ # Páginas da aplicação
+│ ├── services/ # Conexão com a API (Axios)
+│ ├── App.js # Componente principal
+│ └── index.js # Ponto de entrada
+├── package.json
+
+
+
+## ▶️ Como rodar
+
+1. Instalar as dependências:
+
+```bash
+npm install
+npm start
+
+🔗 Integração com Backend
+Certifique-se de que o backend está rodando em http://localhost:3000 ou ajuste as URLs no arquivo de serviços (por exemplo, src/services/api.js).
+
+📌 Funcionalidades previstas
+Listagem de acervos
+
+Cadastro e edição de usuários
+
+Integração com base de dados do MongoDB via backend
+
+yaml
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
